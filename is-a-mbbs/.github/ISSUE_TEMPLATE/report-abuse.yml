@@ -1,0 +1,20 @@
+name: Report Abuse
+description: Report a subdomain that is violating the Terms of Service
+labels: ["report-abuse"]
+body:
+  - type: input
+    attributes:
+      label: Subdomain being reported
+      placeholder: e.g. badactor.is-a.mbbs.in
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Reason for report
+      description: Describe what the subdomain is doing that violates ToS
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Evidence
+      description: Screenshots, links, or other evidence

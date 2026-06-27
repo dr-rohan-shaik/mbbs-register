@@ -1,0 +1,10 @@
+{
+  "name": "is-a-mbbs-register",
+  "version": "1.0.0",
+  "description": "Free .mbbs subdomains for the medical community",
+  "scripts": {
+    "validate": "node util/validate.js",
+    "deploy": "node util/deploy.js"
+  },
+  "license": "GPL-3.0"
+}

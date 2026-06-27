@@ -1,0 +1,32 @@
+name: Deploy DNS Records
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "domains/**"
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    name: Push Records to Cloudflare
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Validate before deploy
+        run: node util/validate.js
+
+      - name: Deploy to Cloudflare
+        env:
+          CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+          CF_ZONE_ID: ${{ secrets.CF_ZONE_ID }}
+          BASE_DOMAIN: ${{ secrets.BASE_DOMAIN }}
+        run: node util/deploy.js

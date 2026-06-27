@@ -1,0 +1,15 @@
+name: Domain Support
+description: Something is wrong with your registered subdomain
+labels: ["support"]
+body:
+  - type: input
+    attributes:
+      label: Your subdomain
+      placeholder: e.g. rohan.is-a.mbbs.in
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Describe the issue
+    validations:
+      required: true

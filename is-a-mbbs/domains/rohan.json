@@ -1,0 +1,11 @@
+{
+  "description": "Rohan's personal medical and trading portfolio",
+  "repo": "https://github.com/dr-rohan-shaik/portfolio",
+  "owner": {
+    "username": "dr-rohan-shaik",
+    "email": "rohan@example.com"
+  },
+  "record": {
+    "CNAME": "dr-rohan-shaik.github.io"
+  }
+}
