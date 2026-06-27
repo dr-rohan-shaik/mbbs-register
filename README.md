@@ -1,8 +1,8 @@
 # is-a.mbbs
 
-[![Domains](https://img.shields.io/github/directory-file-count/YOUR_ORG/register/domains?color=4e9af1&label=domains&style=for-the-badge)](domains/)
-[![Open Pull Requests](https://img.shields.io/github/issues-pr-raw/YOUR_ORG/register?color=4e9af1&label=pull%20requests&style=for-the-badge)](../../pulls)
-[![Open Issues](https://img.shields.io/github/issues-raw/YOUR_ORG/register?color=4e9af1&label=issues&style=for-the-badge)](../../issues)
+[![Domains](https://img.shields.io/github/directory-file-count/dr-rohan-shaik/register/domains?color=4e9af1&label=domains&style=for-the-badge)](domains/)
+[![Open Pull Requests](https://img.shields.io/github/issues-pr-raw/dr-rohan-shaik/register?color=4e9af1&label=pull%20requests&style=for-the-badge)](../../pulls)
+[![Open Issues](https://img.shields.io/github/issues-raw/dr-rohan-shaik/register?color=4e9af1&label=issues&style=for-the-badge)](../../issues)
 
 ```
  _  _     __  __  ____  ____  ____
